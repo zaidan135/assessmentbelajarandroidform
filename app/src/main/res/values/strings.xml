@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Assessment Belajar Android Form</string>
+    <string name="form_title">Form Assessment Belajar Android</string>
+    <string name="hasil_title">Hasil Assessment</string>
+    <string name="nim">NIM</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="semester">Semester</string>
+    <string name="device_coding">Device yang digunakan untuk coding</string>
+    <string name="os_device">OS Device</string>
+    <string name="nama_versi_os">Nama Versi OS</string>
+    <string name="ram">RAM</string>
+    <string name="nama_cpu">Nama CPU</string>
+    <string name="deployment">Deployment</string>
+    <string name="merk_hp">Merk HP</string>
+    <string name="os_hp_versi">OS HP Versi</string>
+    <string name="ukuran_hp">Ukuran HP</string>
+    <string name="penggunaan_internet">Penggunaan Internet</string>
+    <string name="installed_android_studio">Sudah install Android Studio?</string>
+    <string name="Android_Studio_is_installed">Sudah install Android Studio</string>
+    <string name="versi_android_studio">Versi Android Studio</string>
+    <string name="submit">SUBMIT</string>
+    <string name="developer_info">Developer Info</string>
+    <string name="profil_developer">Profil Developer</string>
+    <string name="nama_developer">Nama: Zaidan Febriandi</string>
+    <string name="nim_developer">NIM: 10122231</string>
+    <string name="email_developer">Email: febriandizaidan@gmail.com</string>
+    <string name="tutup">Tutup</string>
+    <string name="nim_error">NIM wajib diisi</string>
+    <string name="nama_error">Nama lengkap wajib diisi</string>
+    <string name="semester_error">Semester wajib dipilih</string>
+    <string name="device_coding_error">Device coding wajib dipilih</string>
+    <string name="os_device_error">OS Device wajib dipilih</string>
+</resources>

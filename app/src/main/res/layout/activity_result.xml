@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hasil_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvNamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_lengkap"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSemester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/semester"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDeviceForCoding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_coding"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvOsDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_device"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvNamaVersiOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_versi_os"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        =        <TextView
+        android:id="@+id/tvRam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ram"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvNamaCPU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_cpu"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDeployment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deployment"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvMerkHP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/merk_hp"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvOsHPVersi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_hp_versi"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvUkuranHP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ukuran_hp"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvPenggunaanInternet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/penggunaan_internet"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSudahInstallAndroidStudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/installed_android_studio"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvVersiAndroidStudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/versi_android_studio"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDevInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_info"
+            app:cornerRadius="8dp"
+            android:padding="12dp"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>
